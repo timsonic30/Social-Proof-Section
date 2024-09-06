@@ -1,0 +1,102 @@
+/* step 1*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* step 2*/
+.container {
+  border: 10px soild black;
+  box-shadow: 1px 1px 2px 2px;
+  width: 1000px;
+  padding: 40px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background-image: url(images/bg-pattern-top-desktop.svg);
+}
+
+.head {
+  width: 380px;
+}
+
+.star {
+  background-color: #0dff00;
+  width: 500px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rate {
+  background-color: lightpink;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  background-image: url(images/bg-pattern-bottom-desktop.svg);
+}
+
+.Person {
+  background-color: purple;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.P-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+}
+
+.P-bottom p {
+  color: white;
+}
+
+h1,
+.rate p,
+.head p {
+  color: purple;
+}
+
+.right p {
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.rate img {
+  height: 25px;
+}
+
+.right .buyer {
+  margin-top: 0px;
+  color: #be60be;
+}
+
+.two {
+  align-self: center;
+}
+
+.three {
+  align-self: end;
+}
